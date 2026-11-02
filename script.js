@@ -6,6 +6,7 @@ const countDisplay = document.getElementById("count");
 document.getElementById("increment").addEventListener("click", () => {
   count++;
   countDisplay.textContent = count;
+  console.log("Hulk smash: count increased!");
 });
 
 document.getElementById("decrement").addEventListener("click", () => {
