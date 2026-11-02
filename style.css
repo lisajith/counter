@@ -5,7 +5,8 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: #f1f5f9;
+  background-color: #0f172a; /* dark slate background */
+  color: #0f172a;
 }
 
 .counter-box {
