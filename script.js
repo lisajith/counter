@@ -15,3 +15,8 @@ document.getElementById("reset").addEventListener("click", () => {
   count = 0;
   countDisplay.textContent = count;
 });
+
+document.getElementById("double").addEventListener("click", () => {
+  count *= 2;
+  countDisplay.textContent = count;
+});
