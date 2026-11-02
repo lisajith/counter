@@ -1,3 +1,5 @@
+console.log("Timeline stabilized: Counter ready!");
+
 let count = 0;
 const countDisplay = document.getElementById("count");
 
