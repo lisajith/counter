@@ -16,6 +16,7 @@ document.getElementById("decrement").addEventListener("click", () => {
 document.getElementById("reset").addEventListener("click", () => {
   count = 0;
   countDisplay.textContent = count;
+  console.log("Counter reset to zero!");
 });
 
 document.getElementById("double").addEventListener("click", () => {
